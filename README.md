@@ -15,4 +15,4 @@ The program first standardizes the x-values, assuring for each x_1 through x_100
 #### Side notes
 The data must be 1-hot encoded when passed to the keras fit function. One can use the `to_categorical` function from the keras utils module. 
 
-The predictions are output to a csv file, which was uploaded to be tested on a unknown data set. The accuracy of the model on the new test set was **90.6%**. 
+The predictions are output to a csv file, which was uploaded to be tested on a unknown data set. The accuracy of the model on the new test set was **90.6%**, which passed the "hard" baseline provided by the creators of the competition. 
